@@ -13,7 +13,7 @@ const port=process.env.PORT || 4000;
 //middleware
 app.use(express.json())
 app.use(cors({
-    origin:["https://deploy-mern-1whq.vercel.app"],
+    origin:["'https://food-ordering-backend-jafaef4a8-bhashvikas-projects.vercel.app'"],
     methods:["POST","GET"],
     credentials:true
     
